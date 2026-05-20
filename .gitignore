@@ -1,0 +1,27 @@
+# Environment & Secrets
+fiberTrace/.env
+fiberTrace/.env.backup
+fiberTrace/.env.production
+fiberTrace/auth.json
+
+# Dependencies
+fiberTrace/node_modules/
+fiberTrace/vendor/
+
+# Database & Storage
+fiberTrace/database/*.sqlite
+fiberTrace/public/storage
+fiberTrace/storage/*.key
+fiberTrace/storage/pail
+fiberTrace/storage/logs/*.log
+fiberTrace/storage/framework/sessions/*
+fiberTrace/storage/framework/views/*
+fiberTrace/storage/framework/cache/*
+
+# IDE & Editor Configs
+.idea/
+.vscode/
+.zed/
+.DS_Store
+Thumbs.db
+*.log
